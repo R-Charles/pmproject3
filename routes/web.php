@@ -49,3 +49,9 @@ Route::get('/records/{record}', [RecordController::class, 'show']);
 
 // Show Registration/Create Form
 Route::get('/register', [UserController::class, 'create']);
+
+//Create New User
+Route::post('/users', [UserController::class, 'store']);
+
+//Log User Out
+Route::get('/logout', [UserController::class, 'logout']);
