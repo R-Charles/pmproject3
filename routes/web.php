@@ -60,4 +60,4 @@ Route::post('/logout', [UserController::class, 'logout']);
 Route::get('/login', [UserController::class, 'login']);
 
 // Log In User
-Route::post('/users/authenticate', [UserController::class, 'authenticate']);
+Route::post('/users/authenticate', [UserController::class, 'authenticate']); 
