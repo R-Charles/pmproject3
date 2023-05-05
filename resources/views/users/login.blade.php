@@ -11,9 +11,9 @@
         @csrf
 
         <div class="mb-6">
-            <label for="email" class="inline-block text-lg mb-2"
-                >Email</label
-            >
+            <label for="email" class="inline-block text-lg mb-2">
+                Email
+            </label>
             <input
                 type="email"
                 class="border border-gray-200 rounded p-2 w-full"
